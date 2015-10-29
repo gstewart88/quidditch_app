@@ -1,0 +1,58 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body {
+     color: white;
+     background: url(/QuidditchWorldCup.png) no-repeat center center fixed; 
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     position: relative;
+ }
+
+ .container {
+      width: 75%;
+     margin: 0 auto;
+     position: relative;
+ }
+
+ a {
+  text-decoration: none;
+  color: white;
+ }
+
+ .box {
+     display: inline-block;
+     width: 25%;
+     margin-right: -4px;
+ }
+
+ .top {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 20px;
+ }
+
+ .title {
+  text-align: center;
+  font: 400 65px/0.4 'Cookie', Helvetica, sans-serif;
+  color: #eee;
+  text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+
+ }

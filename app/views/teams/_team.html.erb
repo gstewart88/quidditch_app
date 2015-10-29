@@ -1,0 +1,9 @@
+<nav class="bar">
+  <ul>
+    <li><%= team.name %> was founded on <%= team.founded %>.</li>
+    <li><%= link_to("Show #{team.name}", team_path(team)) %></li>
+    <li><%= button_to('Delete Team', team_path(team), method: :delete, data:{confirm: "Delete Them? Are you sure?"}) %></li>
+    <li><%= link_to("Edit Team", edit_team_path(team)) %></li>
+  </ul>
+</nav>
+<br>

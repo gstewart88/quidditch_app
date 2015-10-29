@@ -1,0 +1,9 @@
+<p class="overlay">
+<h2><%= @team.name %></h2>
+<p><%= @team.name %>'s mascot is <%= @team.mascot %></p>
+<%= image_tag(@team.image, alt: "alt text is always required", width:200) %>
+<% @team.players.each do |player| %>
+<%= player.name %>
+</p> 
+  <br>
+<% end %>
